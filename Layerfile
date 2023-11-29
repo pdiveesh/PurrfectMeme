@@ -22,3 +22,4 @@ RUN ls
 # their requests to it.
 RUN BACKGROUND python3 -m http.server 80
 EXPOSE WEBSITE http://localhost:80
+
